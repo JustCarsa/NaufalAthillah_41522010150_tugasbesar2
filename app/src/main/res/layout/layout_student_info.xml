@@ -13,7 +13,7 @@
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Satria" />
+        tools:text="User" />
 
     <TextView
         android:id="@+id/registrationNumTitle"
@@ -31,7 +31,7 @@
         android:layout_marginStart="4dp"
         app:layout_constraintLeft_toRightOf="@id/registrationNumTitle"
         app:layout_constraintTop_toBottomOf="@id/nameTextView"
-        tools:text="1145" />
+        tools:text="41522010" />
 
     <TextView
         android:id="@+id/emailTitle"
@@ -49,7 +49,8 @@
         android:layout_marginStart="4dp"
         app:layout_constraintLeft_toRightOf="@id/emailTitle"
         app:layout_constraintTop_toBottomOf="@id/registrationNumTitle"
-        tools:text="satria@gmail.com" />
+        tools:text="mercu@buana.co.id
+" />
 
     <TextView
         android:id="@+id/phoneTitle"
@@ -67,6 +68,6 @@
         android:layout_marginStart="4dp"
         app:layout_constraintLeft_toRightOf="@id/phoneTitle"
         app:layout_constraintTop_toBottomOf="@id/emailTitle"
-        tools:text="020933761823" />
+        tools:text="089530306969" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
